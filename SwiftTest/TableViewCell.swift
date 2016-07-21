@@ -15,8 +15,5 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
     
-    override var reuseIdentifier: String? {
-        return "myCell"
-    }
-    
+    static var reuseIdentifier =  "myCell"    
 }
